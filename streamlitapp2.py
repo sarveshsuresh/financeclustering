@@ -16,7 +16,7 @@ st.title(' Clustering-Based Stock-Index Reduction')
 st.write("Adjust the parameters to find if clustering is effective in gaining alpha over the Index (NIFTY50)")
 
 #data=pd.read_csv('C:/Users/sarve/Downloads/neat_nifty2012.csv')
-data=pd.read_csv('neat_nifty2012.csv')
+data=pd.read_csv('Data/neat_nifty2012.csv')
 
 x=pd.DataFrame(data.groupby('year_start')['change'].mean()).reset_index()
 x.columns=['year_start','average']
