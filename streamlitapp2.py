@@ -189,7 +189,7 @@ if st.button('Submit'):
 
      
 
-    for k in range(50):
+    for k in range(1):
         
 
 
