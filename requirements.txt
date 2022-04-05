@@ -1,3 +1,4 @@
 yfinance
 altair
 streamlit
+sklearn
