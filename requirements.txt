@@ -2,3 +2,4 @@ yfinance
 altair
 streamlit
 sklearn
+pandas
