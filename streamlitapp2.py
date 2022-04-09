@@ -225,7 +225,7 @@ if st.button('Submit'):
 
         clusters,numbers,hits,cis=[],[],[],[]
         dat=pd.DataFrame(columns=['cluster','number of companies','hit_rate','returns'])
-        for i in range(3):
+        for i in range(cluster_k):
           su=sub[sub['cluster']==i]
           mn=np.mean(su['target'])
           
