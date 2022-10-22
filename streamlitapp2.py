@@ -32,7 +32,7 @@ val="data['Share Capital']"
 agree = st.checkbox("I want to create a new ratio",key="1")
 if agree==True:
 
-    new_col_name=st.text_input("Enter Name for new Ratio",key="1")
+    new_col_name=st.text_input("Enter Name for new Ratio",key="10")
     val="data['Share Capital']"
 
     val=st.text_input("Enter equation for new Ratio",key="11")
@@ -49,7 +49,7 @@ if agree==True:
 agree2 = st.checkbox("I want to create a new ratio",key="2")
 if agree2==True:
 
-    new_col_name=st.text_input("Enter Name for new Ratio",key="2")
+    new_col_name=st.text_input("Enter Name for new Ratio",key="20")
     val="data['Share Capital']"
 
     val=st.text_input("Enter equation for new Ratio",key="22")
@@ -67,7 +67,7 @@ if agree2==True:
 agree3 = st.checkbox("I want to create a new ratio",key="3")
 if agree3==True:
 
-    new_col_name=st.text_input("Enter Name for new Ratio",key="3")
+    new_col_name=st.text_input("Enter Name for new Ratio",key="30")
     val="data['Share Capital']"
 
     val=st.text_input("Enter equation for new Ratio",key="33")
@@ -86,7 +86,7 @@ if agree3==True:
 agree4 = st.checkbox("I want to create a new ratio",key="4")
 if agree4==True:
 
-    new_col_name=st.text_input("Enter Name for new Ratio",key="4")
+    new_col_name=st.text_input("Enter Name for new Ratio",key="40")
     val="data['Share Capital']"
 
     val=st.text_input("Enter equation for new Ratio",key="44")
@@ -105,7 +105,7 @@ if agree4==True:
 agree5 = st.checkbox("I want to create a new ratio",key="5")
 if agree5==True:
 
-    new_col_name=st.text_input("Enter Name for new Ratio",key="5")
+    new_col_name=st.text_input("Enter Name for new Ratio",key="50")
     val="data['Share Capital']"
 
     val=st.text_input("Enter equation for new Ratio",key="55")
