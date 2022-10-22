@@ -35,7 +35,7 @@ if agree==True:
     new_col_name=st.text_input("Enter Name for new Ratio",key="1")
     val="data['Share Capital']"
 
-    val=st.text_input("Enter equation for new Ratio",key="1")
+    val=st.text_input("Enter equation for new Ratio",key="11")
     
 
 
@@ -52,7 +52,7 @@ if agree2==True:
     new_col_name=st.text_input("Enter Name for new Ratio",key="2")
     val="data['Share Capital']"
 
-    val=st.text_input("Enter equation for new Ratio",key="2")
+    val=st.text_input("Enter equation for new Ratio",key="22")
     
 
 
@@ -70,7 +70,7 @@ if agree3==True:
     new_col_name=st.text_input("Enter Name for new Ratio",key="3")
     val="data['Share Capital']"
 
-    val=st.text_input("Enter equation for new Ratio",key="3")
+    val=st.text_input("Enter equation for new Ratio",key="33")
     
 
 
@@ -89,7 +89,7 @@ if agree4==True:
     new_col_name=st.text_input("Enter Name for new Ratio",key="4")
     val="data['Share Capital']"
 
-    val=st.text_input("Enter equation for new Ratio",key="4")
+    val=st.text_input("Enter equation for new Ratio",key="44")
     
 
 
@@ -108,7 +108,7 @@ if agree5==True:
     new_col_name=st.text_input("Enter Name for new Ratio",key="5")
     val="data['Share Capital']"
 
-    val=st.text_input("Enter equation for new Ratio",key="5")
+    val=st.text_input("Enter equation for new Ratio",key="55")
     
 
 
@@ -127,7 +127,7 @@ st.write('CHOOSE YOUR EVALUATION CRITERION TO GO ALONG WITH HIT-RATE/Returns')
 
 option1 = st.selectbox(
    'CRITERIA',
-     colz)
+     colz,key='111')
 
 
 if option1=='absolute_profit':
@@ -171,7 +171,7 @@ st.write('CHOOSE YOUR EVALUATION CRITERION')
 
 criterion = st.selectbox(
    'Hit/Returns',
-     colz2)
+     colz2,key='222')
 #criterion='hit_rate'
 valz=[]
 import time
